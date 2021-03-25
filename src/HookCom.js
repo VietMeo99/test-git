@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-const HookCom = ({tet}) => {
-  const [employ, setEmploy] = useState({ceo: 0, salary: 1000})
+const HookCom = ({ tet }) => {
+  const [employ, setEmploy] = useState({ ceo: 0, salary: 1000 })
   const [count, setCount] = useState(0);
   const handle = (x) => {
     console.log('x :', x);
     setEmploy((prevState) => ({
-      salary: x* prevState.salary
+      salary: x * prevState.salary
     }))
   }
   console.log('state hook : ', employ);
@@ -15,7 +15,7 @@ const HookCom = ({tet}) => {
     // document.title = `You clicked ${count} times`;
     console.log('effect : ');
     return () => {
-      // cleanup
+      // cleanup   
       console.log('clear');
     }
   }, [tet])
