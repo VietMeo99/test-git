@@ -12,7 +12,7 @@ const HookCom = ({ tet }) => {
   console.log('state hook : ', employ);
   let x = employ.ceo + 1;
   useEffect(() => {
-    // document.title = `You clicked ${count} times`;
+    document.title = `develop`;
     console.log('effect : ');
     return () => {
       // cleanup   
