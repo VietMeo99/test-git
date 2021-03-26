@@ -12,6 +12,7 @@ const HookCom = ({ tet }) => {
   console.log('state hook : ', employ);
   let x = employ.ceo + 1;
   console.log('test 1 them 1');
+  console.log('test 1 them 2');
   useEffect(() => {
     document.title = `test1`;
     console.log('effect : ');
