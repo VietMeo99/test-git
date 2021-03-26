@@ -14,6 +14,7 @@ const HookCom = ({ tet }) => {
   console.log('them 1');
   console.log('develop them 2');
   console.log('test 2 them 1');
+  console.log('test 3 tạo từ develop them 1');
   useEffect(() => {
     document.title = `develop`;
     console.log('effect : ');
