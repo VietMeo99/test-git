@@ -13,6 +13,7 @@ const HookCom = ({ tet }) => {
   let x = employ.ceo + 1;
   console.log('them 1');
   console.log('develop them 2');
+  console.log('test 2 them 1');
   useEffect(() => {
     document.title = `develop`;
     console.log('effect : ');
