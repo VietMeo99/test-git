@@ -18,6 +18,8 @@ const HookCom = ({ tet }) => {
   console.log('test 1 them 2');
   console.log('test 1 them 3');
   console.log('test 1 them 4');
+  console.log('develop them 3');
+
   useEffect(() => {
     document.title = `test1`;
     console.log('effect : ');
