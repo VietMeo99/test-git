@@ -19,6 +19,7 @@ const HookCom = ({ tet }) => {
   console.log('test 1 them 3');
   console.log('test 1 them 4');
   console.log('develop them 3');
+  console.log('delete previous commit ');
 
   useEffect(() => {
     document.title = `test1`;
