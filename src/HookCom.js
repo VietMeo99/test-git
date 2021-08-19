@@ -14,7 +14,9 @@ const HookCom = ({ tet }) => {
   useEffect(() => {
     // document.title = `You clicked ${count} times`;
     console.log("effect : ");
-
+    // code sau khi stash
+    // code sau khi stash  2
+    // code sau khi stash  3
     return () => {
       // cleanup
       console.log("clear");
