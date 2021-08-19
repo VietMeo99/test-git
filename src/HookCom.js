@@ -22,6 +22,8 @@ const HookCom = ({ tet }) => {
     // stash 1
     // stash 2
     // stash 3
+    // stash 2
+    // stash 2 - 2
     return () => {
       // cleanup
       console.log("clear");
