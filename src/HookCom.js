@@ -19,6 +19,9 @@ const HookCom = ({ tet }) => {
     // code sau khi stash  3
     // code sau khi stash  lân 2 -1
     // code sau khi stash  lần 2 - 2
+    // stash 1
+    // stash 2
+    // stash 3
     return () => {
       // cleanup
       console.log("clear");
