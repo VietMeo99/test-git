@@ -11,6 +11,11 @@ const HookCom = ({ tet }) => {
   };
   console.log("state hook : ", employ);
   let x = employ.ceo + 1;
+  console.log("them 1");
+  console.log("develop them 2");
+  console.log("test 2 them 1");
+  console.log("develop them 3");
+  // nhanh develop
   useEffect(() => {
     // document.title = `You clicked ${count} times`;
     console.log("effect : ");
@@ -26,6 +31,8 @@ const HookCom = ({ tet }) => {
     // stash 2 - 2
     // tet pull
 
+    document.title = `develop`;
+    console.log("effect : ");
     return () => {
       // cleanup
       console.log("clear");
