@@ -24,6 +24,7 @@ const HookCom = ({ tet }) => {
       console.log("clear");
     };
   }, [tet]);
+  // test nhanh
   return (
     <div>
       <button onClick={() => handle(x)}>Test + </button>
