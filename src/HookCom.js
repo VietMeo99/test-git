@@ -35,4 +35,4 @@ const HookCom = ({ tet }) => {
 };
 
 export default HookCom;
-// test cherry pick 2
+// cherry pick check 1 file hook
