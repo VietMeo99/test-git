@@ -5,7 +5,7 @@ import Post from "./Post";
 import Spin from "./Spin";
 import DemoCom from "./DemoCom";
 import HookCom from "./HookCom";
-// v2
+// v2 - v1
 
 export default class App extends Component {
   constructor(props) {
