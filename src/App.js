@@ -1,24 +1,25 @@
-import React , {Component} from "react";
+import React, { Component } from "react";
 import data from "./data";
 import LazyLoad from "react-lazyload";
 import Post from "./Post";
 import Spin from "./Spin";
 import DemoCom from "./DemoCom";
 import HookCom from "./HookCom";
+// v2
 
 export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      counter: 0
+      counter: 0,
     };
   }
 
   handleClick = () => {
-    this.setState(prevState => ({
-      counter: prevState.counter + 1
+    this.setState((prevState) => ({
+      counter: prevState.counter + 1,
     }));
-  }
+  };
 
   render() {
     return (
@@ -45,6 +46,6 @@ export default class App extends Component {
           ))}
         </div> */}
       </div>
-    )
+    );
   }
 }
